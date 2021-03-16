@@ -24,6 +24,8 @@ public class MatchManager : MonoBehaviour
     }
 	
 	private void GenerateFieldingTeam(){
+		// Default view to (-10, -5) to (10, 5)
+		// WK at (0, 4)
 		fielding_team = new GameObject[11];
 		
 		for (int i = 0; i < fielding_team.Length; i++) {
